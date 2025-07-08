@@ -20,8 +20,8 @@ jobs:
       fail-fast: false
       matrix:
         suite:
-          - tests/test_api.py
-          - tests/test_manual.py
+          - test/test_api.py
+          - test/login_test.py
 
     steps:
       - name: Checkout code
